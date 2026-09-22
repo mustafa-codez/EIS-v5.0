@@ -1,0 +1,15 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+*.java text diff=java
+*.md   text
+*.xml  text
+*.yml  text
+*.yaml text
+
+# Binary files
+*.jar  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
